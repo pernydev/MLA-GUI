@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "mlagui",
+  "outputfilename": "mlagui",
+  "frontend:install": "bun i",
+  "frontend:build": "bun run build",
+  "frontend:dev:watcher": "bun dev",
+  "frontend:dev:serverUrl": "auto",
+  "wailsjsdir": "./frontend/src/lib",
+  "author": {
+    "name": "Perny",
+    "email": "git@perny.dev"
+  }
+}
